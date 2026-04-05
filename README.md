@@ -1,4 +1,4 @@
-# My Static Website
+# projet-problem-ds1-
 
 A clean, modern static website built with HTML, CSS, and JavaScript.
 
