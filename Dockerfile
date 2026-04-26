@@ -4,8 +4,8 @@ FROM nginx:alpine
 RUN rm -rf /usr/share/nginx/html/*
 
 #bech ncopi l html n7otou fil nginix (serveur web)
+COPY /html/index.html /usr/share/nginx/html
 COPY . /usr/share/nginx/html
-
 #Port d'exposition 
 EXPOSE 80
 
